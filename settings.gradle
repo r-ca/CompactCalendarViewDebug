@@ -16,6 +16,14 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven {
+            name = 'CompactCalendarViewGHPackages'
+            url = uri('https://maven.pkg.github.com/r-ca/CompactCalendarView')
+            credentials {
+                username = 'r-ca'
+                password = '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'
+            }
+        }
     }
 }
 
